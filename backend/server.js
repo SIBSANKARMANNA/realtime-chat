@@ -2,11 +2,14 @@ const express = require('express');
 const http = require('http');
 const { Server } = require('socket.io');
 const path = require('path');
+const cors = require('cors');
+
+
 
 const app = express();
 const server = http.createServer(app);
 const io = new Server(server);
-
+app.use(cors({ origin: 'https://sibsankarmanna.github.io' }));
 // Serve static files from the frontend
 app.use(express.static(path.join(__dirname, '../frontend/public')));
 
