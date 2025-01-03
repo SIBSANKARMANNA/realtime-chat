@@ -1,5 +1,5 @@
 
-const socket = io();
+const socket = io("https://realtime-chat-2cm7.onrender.com");
 let username;
 let currentRoom;
 
