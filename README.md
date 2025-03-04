@@ -2,6 +2,9 @@
 
 This is a real-time chat application that allows users to exchange messages instantly. Users joining the same room can view messages sent by others in real time, while ensuring privacy from users in other rooms.
 
+live project link:https://realtime-chat-2cm7.onrender.com
+
+
 ---
 
 ## Features and Functionality  
